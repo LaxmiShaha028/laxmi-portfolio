@@ -4,7 +4,8 @@ Welcome to my personal portfolio website! This project showcases my skills, proj
 
 ## 🔥 Live Demo
 
-**GitHub Pages:** [View Portfolio](https://your-username.github.io/your-repo-name)  
+**GitHub Pages:** [View Portfolio](https://laxmishaha028.github.io/your-repo-name/
+)  
 *(Replace the above link with your actual deployed GitHub Pages link once published)*
 
 ## ✨ Features
