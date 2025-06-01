@@ -3,40 +3,33 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Laxmi | Developer Portfolio</title>
+  <title>Laxmi Rani Shaha | Developer Portfolio</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <script>
-    tailwind.config = {
-      darkMode: 'class',
-    };
+    tailwind.config = { darkMode: 'class' };
   </script>
-  <style>
-    .dark .dark\:text-white { color: white; }
-    .dark .dark\:bg-gray-900 { background-color: #111827; }
-    .dark .dark\:bg-gray-800 { background-color: #1f2937; }
-    .dark .dark\:bg-blue-900 { background-color: #1e3a8a; }
-    .dark .dark\:text-gray-400 { color: #d1d5db; }
-  </style>
 </head>
-<body class="bg-gradient-to-b from-white to-blue-50 dark:from-gray-900 dark:to-gray-800 text-gray-900 dark:text-white font-sans transition duration-300">
+<body class="bg-white dark:bg-gray-900 text-gray-900 dark:text-white transition duration-300 font-sans">
 
-  <!-- Toggle Button -->
-  <button onclick="toggleDarkMode()" class="fixed top-5 right-5 bg-blue-600 dark:bg-yellow-400 text-white dark:text-black px-4 py-2 rounded shadow hover:scale-105 transition">
+  <!-- Toggle Dark Mode -->
+  <button onclick="toggleDarkMode()" class="fixed top-4 right-4 px-4 py-2 bg-blue-600 dark:bg-yellow-400 text-white dark:text-black rounded-full shadow hover:scale-105 transition">
     Toggle Theme
   </button>
 
-  <!-- Hero Section -->
+  <!-- Hero -->
   <section class="min-h-screen flex flex-col justify-center items-center text-center p-6">
-    <h1 class="text-5xl font-extrabold text-blue-700 dark:text-yellow-300">Hi, I'm Laxmi 👋</h1>
-    <p class="mt-4 text-xl text-gray-600 dark:text-gray-400 max-w-xl">A student and aspiring developer focused on building powerful desktop and web applications.</p>
+    <h1 class="text-5xl font-extrabold text-blue-700 dark:text-yellow-300">Hi, I'm Laxmi Rani Shaha 👋</h1>
+    <p class="mt-4 text-xl max-w-xl text-gray-600 dark:text-gray-400">
+      A 3rd year, 2nd semester Software Engineering student passionate about building powerful web and desktop applications.
+    </p>
     <a href="#projects" class="mt-6 bg-blue-600 text-white px-6 py-2 rounded-full hover:bg-blue-700 transition">See My Projects</a>
   </section>
 
-  <!-- Skills Section -->
-  <section class="py-12 bg-white dark:bg-gray-900">
-    <h2 class="text-3xl font-bold text-center mb-6">Skills</h2>
+  <!-- Skills -->
+  <section class="py-12 bg-gray-100 dark:bg-gray-800 text-center">
+    <h2 class="text-3xl font-bold mb-6">Skills</h2>
     <div class="flex flex-wrap justify-center gap-3 px-4">
-      <span class="bg-blue-100 text-blue-800 px-4 py-2 rounded-full animate-bounce">Java</span>
+      <span class="bg-blue-100 text-blue-800 px-4 py-2 rounded-full">Java</span>
       <span class="bg-yellow-100 text-yellow-800 px-4 py-2 rounded-full">C</span>
       <span class="bg-green-100 text-green-800 px-4 py-2 rounded-full">Python</span>
       <span class="bg-pink-100 text-pink-800 px-4 py-2 rounded-full">HTML</span>
@@ -47,49 +40,39 @@
     </div>
   </section>
 
-  <!-- Projects Section -->
-  <section id="projects" class="py-12 bg-blue-50 dark:bg-gray-800">
+  <!-- Projects -->
+  <section id="projects" class="py-12 bg-white dark:bg-gray-900">
     <h2 class="text-3xl font-bold text-center mb-8">Projects</h2>
-    <div class="grid gap-8 grid-cols-1 md:grid-cols-2 max-w-5xl mx-auto px-4">
-      <!-- Card 1 -->
-      <div class="bg-white dark:bg-gray-900 p-6 rounded-xl shadow hover:shadow-xl transition">
-        <h3 class="text-xl font-semibold">🐾 Inventory Management System</h3>
-        <p class="mt-2 text-gray-600 dark:text-gray-400">An Inventory Management System in Java is designed to track and manage product stock, suppliers, and sales using a user-friendly interface. It helps streamline inventory control, ensuring real-time updates and efficient inventory operations.</p>
+    <div class="grid gap-6 grid-cols-1 md:grid-cols-2 max-w-5xl mx-auto px-4">
+      <div class="bg-white dark:bg-gray-800 p-6 rounded-xl shadow hover:shadow-xl transition">
+        <h3 class="text-xl font-semibold">📦 Inventory Management System</h3>
+        <p class="mt-2 text-gray-600 dark:text-gray-400">A Java-based application to manage stock, suppliers, and sales using a Swing UI. It helps maintain real-time inventory status and improves tracking.</p>
       </div>
-      <!-- Card 2 -->
-      <div class="bg-white dark:bg-gray-900 p-6 rounded-xl shadow hover:shadow-xl transition">
-        <h3 class="text-xl font-semibold">📦 Simple Calculator</h3>
-        <p class="mt-2 text-gray-600 dark:text-gray-400">A Swing-based Simple Calculator in Java performs basic arithmetic operations like addition, subtraction, multiplication, and division. It features a graphical user interface for easy and interactive user input.</p>
+      <div class="bg-white dark:bg-gray-800 p-6 rounded-xl shadow hover:shadow-xl transition">
+        <h3 class="text-xl font-semibold">🧮 Simple Calculator</h3>
+        <p class="mt-2 text-gray-600 dark:text-gray-400">A Swing-based calculator in Java that performs basic arithmetic operations with a user-friendly interface.</p>
       </div>
-      <!-- Card 3 -->
-      <div class="bg-white dark:bg-gray-900 p-6 rounded-xl shadow hover:shadow-xl transition">
+      <div class="bg-white dark:bg-gray-800 p-6 rounded-xl shadow hover:shadow-xl transition">
         <h3 class="text-xl font-semibold">💻 IT Company Portal</h3>
-        <p class="mt-2 text-gray-600 dark:text-gray-400">A web portal for managing employee records and performance, using HTML, JS, and Tailwind.</p>
+        <p class="mt-2 text-gray-600 dark:text-gray-400">A web portal developed using HTML, JavaScript, and Tailwind CSS to manage employee records and performance data efficiently.</p>
       </div>
     </div>
   </section>
 
   <!-- Contact -->
-  <section class="py-12 text-center bg-white dark:bg-gray-900">
+  <section class="py-12 text-center bg-gray-100 dark:bg-gray-800">
     <h2 class="text-3xl font-bold mb-4">Contact Me</h2>
-    <p class="text-gray-600 dark:text-gray-400 mb-2">Feel free to reach out!</p>
-    <p>
-      Email: 
-      <a href="mailto:laxmishaha314@example.com" class="text-blue-600 hover:underline">laxmishaha314@example.com</a> |
-      <a href="https://mail.google.com/mail/?view=cm&fs=1&to=laxmishaha314@example.com" target="_blank" class="text-blue-600 hover:underline">Send via Gmail</a>
+    <p class="text-gray-600 dark:text-gray-400">Email: 
+      <a href="mailto:laxmishaha314@example.com" class="text-blue-600 hover:underline">laxmishaha314@example.com</a>
     </p>
-    <p>
-      GitHub: 
-      <a href="https://github.com/laxmishaha028" class="text-blue-600 hover:underline">github.com/laxmi123</a>
+    <p class="mt-2">GitHub: 
+      <a href="https://github.com/laxmishaha028" class="text-blue-600 hover:underline">github.com/laxmishaha028</a>
     </p>
   </section>
 
-  <!-- Floating Button -->
-  <a href="#top" class="fixed bottom-6 right-6 bg-blue-700 dark:bg-blue-900 text-white px-4 py-2 rounded-full shadow-lg hover:bg-blue-900 transition">↑ Top</a>
-
   <!-- Footer -->
   <footer class="bg-gray-800 text-white text-center py-4">
-    © 2025 Laxmi. All rights reserved.
+    © 2025 Laxmi Rani Shaha. All rights reserved.
   </footer>
 
   <!-- Dark Mode Script -->
@@ -104,6 +87,5 @@
       document.documentElement.classList.add('dark');
     }
   </script>
-
 </body>
 </html>
